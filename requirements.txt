@@ -1,0 +1,9 @@
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30
+PyMySQL>=1.1,<2.0
+cryptography>=42        # needed by PyMySQL for MySQL 8 caching_sha2_password
+pydantic>=2.7,<3.0
+pydantic-settings>=2.3
+email-validator>=2.1
+argon2-cffi>=23.1
+PyJWT>=2.8
